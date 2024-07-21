@@ -1,0 +1,410 @@
+{
+  "c": [
+    {
+      "label": "C (C Major)",
+      "notes": ["C", "E", "G"]
+    },
+    {
+      "label": "Cm (C Minor)",
+      "notes": ["C", "D#", "G"]
+    },
+    {
+      "label": "C7 (C Dominant 7)",
+      "notes": ["C", "E", "G", "A#"]
+    },
+    {
+      "label": "Cm7 (C Minor 7)",
+      "notes": ["C", "D#", "G", "A#"]
+    },
+    {
+      "label": "Cmaj7 (C Major 7)",
+      "notes": ["C", "E", "G", "B"]
+    },
+    {
+      "label": "Cm7b5 (C Minor 7 Flat 5)",
+      "notes": ["C", "D#", "F#", "A#"]
+    },
+    {
+      "label": "Cdim (C Diminished)",
+      "notes": ["C", "D#", "F#", "A"]
+    },
+    {
+      "label": "Caug (C Augmented)",
+      "notes": ["C", "E", "G#"]
+    }
+  ],
+  "cs": [
+    {
+      "label": "C# (C# Major)",
+      "notes": ["C#", "F", "G#"]
+    },
+    {
+      "label": "C#m (C# Minor)",
+      "notes": ["C#", "E", "G#"]
+    },
+    {
+      "label": "C#7 (C# Dominant 7)",
+      "notes": ["C#", "F", "G#", "B"]
+    },
+    {
+      "label": "C#m7 (C# Minor 7)",
+      "notes": ["C#", "E", "G#", "B"]
+    },
+    {
+      "label": "C#maj7 (C# Major 7)",
+      "notes": ["C#", "F", "G#", "C"]
+    },
+    {
+      "label": "C#m7b5 (C# Minor 7 Flat 5)",
+      "notes": ["C#", "E", "G", "B"]
+    },
+    {
+      "label": "C#dim (C# Diminished)",
+      "notes": ["C#", "E", "G", "A#"]
+    },
+    {
+      "label": "C#aug (C# Augmented)",
+      "notes": ["C#", "F", "A"]
+    }
+  ],
+  "d": [
+    {
+      "label": "D (D Major)",
+      "notes": ["D", "F#", "A"]
+    },
+    {
+      "label": "Dm (D Minor)",
+      "notes": ["D", "F", "A"]
+    },
+    {
+      "label": "D7 (D Dominant 7)",
+      "notes": ["D", "F#", "A", "C"]
+    },
+    {
+      "label": "Dm7 (D Minor 7)",
+      "notes": ["D", "F", "A", "C"]
+    },
+    {
+      "label": "Dmaj7 (D Major 7)",
+      "notes": ["D", "F#", "A", "C#"]
+    },
+    {
+      "label": "Dm7b5 (D Minor 7 Flat 5)",
+      "notes": ["D", "F", "G#", "C"]
+    },
+    {
+      "label": "Ddim (D Diminished)",
+      "notes": ["D", "F", "G#", "A#"]
+    },
+    {
+      "label": "Daug (D Augmented)",
+      "notes": ["D", "F#", "A#"]
+    }
+  ],
+  "ds": [
+    {
+      "label": "D# (D# Major)",
+      "notes": ["D#", "G", "A#"]
+    },
+    {
+      "label": "D#m (D# Minor)",
+      "notes": ["D#", "F#", "A#"]
+    },
+    {
+      "label": "D#7 (D# Dominant 7)",
+      "notes": ["D#", "G", "A#", "C#"]
+    },
+    {
+      "label": "D#m7 (D# Minor 7)",
+      "notes": ["D#", "F#", "A#", "C#"]
+    },
+    {
+      "label": "D#maj7 (D# Major 7)",
+      "notes": ["D#", "G", "A#", "D"]
+    },
+    {
+      "label": "D#m7b5 (D# Minor 7 Flat 5)",
+      "notes": ["D#", "F#", "A", "C#"]
+    },
+    {
+      "label": "D#dim (D# Diminished)",
+      "notes": ["D#", "F#", "A", "C"]
+    },
+    {
+      "label": "D#aug (D# Augmented)",
+      "notes": ["D#", "G", "B"]
+    }
+  ],
+  "e": [
+    {
+      "label": "E (E Major)",
+      "notes": ["E", "G#", "B"]
+    },
+    {
+      "label": "Em (E Minor)",
+      "notes": ["E", "G", "B"]
+    },
+    {
+      "label": "E7 (E Dominant 7)",
+      "notes": ["E", "G#", "B", "D"]
+    },
+    {
+      "label": "Em7 (E Minor 7)",
+      "notes": ["E", "G", "B", "D"]
+    },
+    {
+      "label": "Emaj7 (E Major 7)",
+      "notes": ["E", "G#", "B", "D#"]
+    },
+    {
+      "label": "Em7b5 (E Minor 7 Flat 5)",
+      "notes": ["E", "G", "A#", "D"]
+    },
+    {
+      "label": "Edim (E Diminished)",
+      "notes": ["E", "G", "A#", "C2"]
+    },
+    {
+      "label": "Eaug (E Augmented)",
+      "notes": ["E", "G#", "C2"]
+    }
+  ],
+  "f": [
+    {
+      "label": "F (F Major)",
+      "notes": ["F", "A", "C2"]
+    },
+    {
+      "label": "Fm (F Minor)",
+      "notes": ["F", "G#", "C2"]
+    },
+    {
+      "label": "F7 (F Dominant 7)",
+      "notes": ["F", "A", "C2", "D#2"]
+    },
+    {
+      "label": "Fm7 (F Minor 7)",
+      "notes": ["F", "G#", "C2", "D#2"]
+    },
+    {
+      "label": "Fmaj7 (F Major 7)",
+      "notes": ["F", "A", "C2", "E2"]
+    },
+    {
+      "label": "Fm7b5 (F Minor 7 Flat 5)",
+      "notes": ["F", "G#", "B", "D#2"]
+    },
+    {
+      "label": "Fdim (F Diminished)",
+      "notes": ["F", "G#", "B", "D2"]
+    },
+    {
+      "label": "Faug (F Augmented)",
+      "notes": ["F", "A", "C#2"]
+    }
+  ],
+  "fs": [
+    {
+      "label": "F# (F# Major)",
+      "notes": ["F#", "A#", "C#2"]
+    },
+    {
+      "label": "F#m (F# Minor)",
+      "notes": ["F#", "A", "C#2"]
+    },
+    {
+      "label": "F#7 (F# Dominant 7)",
+      "notes": ["F#", "A#", "C#2", "E2"]
+    },
+    {
+      "label": "F#m7 (F# Minor 7)",
+      "notes": ["F#", "A", "C#2", "E2"]
+    },
+    {
+      "label": "F#maj7 (F# Major 7)",
+      "notes": ["F#", "A#", "C#2", "F2"]
+    },
+    {
+      "label": "F#m7b5 (F# Minor 7 Flat 5)",
+      "notes": ["F#", "A", "C2", "E2"]
+    },
+    {
+      "label": "F#dim (F# Diminished)",
+      "notes": ["F#", "A", "C2", "D#2"]
+    },
+    {
+      "label": "F#aug (F# Augmented)",
+      "notes": ["F#", "A#", "D2"]
+    }
+  ],
+  "g": [
+    {
+      "label": "G (G Major)",
+      "notes": ["G", "B", "D2"]
+    },
+    {
+      "label": "Gm (G Minor)",
+      "notes": ["G", "A#", "D2"]
+    },
+    {
+      "label": "G7 (G Dominant 7)",
+      "notes": ["G", "B", "D2", "F2"]
+    },
+    {
+      "label": "Gm7 (G Minor 7)",
+      "notes": ["G", "A#", "D2", "F2"]
+    },
+    {
+      "label": "Gmaj7 (G Major 7)",
+      "notes": ["G", "B", "D2", "F#2"]
+    },
+    {
+      "label": "Gm7b5 (G Minor 7 Flat 5)",
+      "notes": ["G", "A#", "C#2", "F2"]
+    },
+    {
+      "label": "Gdim (G Diminished)",
+      "notes": ["G", "A#", "C#2", "E2"]
+    },
+    {
+      "label": "Gaug (G Augmented)",
+      "notes": ["G", "B", "D#2"]
+    }
+  ],
+  "gs": [
+    {
+      "label": "G# (G# Major)",
+      "notes": ["G#", "C2", "D#2"]
+    },
+    {
+      "label": "G#m (G# Minor)",
+      "notes": ["G#", "B", "D#2"]
+    },
+    {
+      "label": "G#7 (G# Dominant 7)",
+      "notes": ["G#", "C2", "D#2", "F#2"]
+    },
+    {
+      "label": "G#m7 (G# Minor 7)",
+      "notes": ["G#", "B", "D#2", "F#2"]
+    },
+    {
+      "label": "G#maj7 (G# Major 7)",
+      "notes": ["G#", "C2", "D#2", "G2"]
+    },
+    {
+      "label": "G#m7b5 (G# Minor 7 Flat 5)",
+      "notes": ["G#", "B", "D2", "F#2"]
+    },
+    {
+      "label": "G#dim (G# Diminished)",
+      "notes": ["G#", "B", "D2", "F2"]
+    },
+    {
+      "label": "G#aug (G# Augmented)",
+      "notes": ["G#", "C2", "E2"]
+    }
+  ],
+  "a": [
+    {
+      "label": "A (A Major)",
+      "notes": ["A", "C#2", "E2"]
+    },
+    {
+      "label": "Am (A Minor)",
+      "notes": ["A", "C2", "E2"]
+    },
+    {
+      "label": "A7 (A Dominant 7)",
+      "notes": ["A", "C#2", "E2", "G2"]
+    },
+    {
+      "label": "Am7 (A Minor 7)",
+      "notes": ["A", "C2", "E2", "G2"]
+    },
+    {
+      "label": "Amaj7 (A Major 7)",
+      "notes": ["A", "C#2", "E2", "G#2"]
+    },
+    {
+      "label": "Am7b5 (A Minor 7 Flat 5)",
+      "notes": ["A", "C2", "D#2", "G2"]
+    },
+    {
+      "label": "Adim (A Diminished)",
+      "notes": ["A", "C2", "D#2", "F2"]
+    },
+    {
+      "label": "Aaug (A Augmented)",
+      "notes": ["A", "C#2", "F2"]
+    }
+  ],
+  "as": [
+    {
+      "label": "A# (A# Major)",
+      "notes": ["A#", "D2", "F2"]
+    },
+    {
+      "label": "A#m (A# Minor)",
+      "notes": ["A#", "C#2", "F2"]
+    },
+    {
+      "label": "A#7 (A# Dominant 7)",
+      "notes": ["A#", "D2", "F2", "G#2"]
+    },
+    {
+      "label": "A#m7 (A# Minor 7)",
+      "notes": ["A#", "C#2", "F2", "G#2"]
+    },
+    {
+      "label": "A#maj7 (A# Major 7)",
+      "notes": ["A#", "D2", "F2", "A2"]
+    },
+    {
+      "label": "A#m7b5 (A# Minor 7 Flat 5)",
+      "notes": ["A#", "C#2", "E2", "G#2"]
+    },
+    {
+      "label": "A#dim (A# Diminished)",
+      "notes": ["A#", "C#2", "E2", "G2"]
+    },
+    {
+      "label": "A#aug (A# Augmented)",
+      "notes": ["A#", "D2", "F#2"]
+    }
+  ],
+  "b": [
+    {
+      "label": "B (B Major)",
+      "notes": ["B", "D#2", "F#2"]
+    },
+    {
+      "label": "Bm (B Minor)",
+      "notes": ["B", "D2", "F#2"]
+    },
+    {
+      "label": "B7 (B Dominant 7)",
+      "notes": ["B", "D#2", "F#2", "A2"]
+    },
+    {
+      "label": "Bm7 (B Minor 7)",
+      "notes": ["B", "D2", "F#2", "A2"]
+    },
+    {
+      "label": "Bmaj7 (B Major 7)",
+      "notes": ["B", "D#2", "F#2", "A#2"]
+    },
+    {
+      "label": "Bm7b5 (B Minor 7 Flat 5)",
+      "notes": ["B", "D2", "F2", "A2"]
+    },
+    {
+      "label": "Bdim (B Diminished)",
+      "notes": ["B", "D2", "F2", "G#2"]
+    },
+    {
+      "label": "Baug (B Augmented)",
+      "notes": ["B", "D#2", "G2"]
+    }
+  ]
+}

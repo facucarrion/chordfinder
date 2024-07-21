@@ -1,0 +1,50 @@
+[
+  {
+    "link": "/c",
+    "label": "C"
+  },
+  {
+    "link": "/cs",
+    "label": "C#"
+  },
+  {
+    "link": "/d",
+    "label": "D"
+  },
+  {
+    "link": "/ds",
+    "label": "D#"
+  },
+  {
+    "link": "/e",
+    "label": "E"
+  },
+  {
+    "link": "/f",
+    "label": "F"
+  },
+  {
+    "link": "/fs",
+    "label": "F#"
+  },
+  {
+    "link": "/g",
+    "label": "G"
+  },
+  {
+    "link": "/gs",
+    "label": "G#"
+  },
+  {
+    "link": "/a",
+    "label": "A"
+  },
+  {
+    "link": "/as",
+    "label": "A#"
+  },
+  {
+    "link": "/b",
+    "label": "B"
+  }
+]

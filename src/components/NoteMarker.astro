@@ -1,0 +1,12 @@
+---
+import colors from '../data/colors.json'
+interface Props {
+  isBlack: boolean
+}
+
+const { isBlack } = Astro.props
+
+const color = isBlack ? colors.background : colors.primary
+---
+
+<circle height='16' width='16' fill={color} x='0' y='0'></circle>

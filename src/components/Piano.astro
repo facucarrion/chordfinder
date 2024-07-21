@@ -1,0 +1,44 @@
+---
+import NoteMarker from './NoteMarker.astro'
+
+import piano from '../data/piano.json'
+import colors from '../data/colors.json'
+
+interface Props {
+  notes: string[]
+  class?: string
+}
+
+const { notes } = Astro.props
+
+const isBlack = (note: string) => note.includes('#')
+const isNoteSelected = (note: string) => notes.includes(note)
+---
+
+<svg viewBox='0 0 700 300' xmlns='http://www.w3.org/2000/svg' {...Astro.props}>
+  {
+    piano.map(({ note, x }) => (
+      <>
+        <rect
+          id={note}
+          x={x}
+          y='0'
+          width={isBlack(note) ? '30' : '50'}
+          height={isBlack(note) ? '180' : '300'}
+          fill={isBlack(note) ? colors.background : colors.primary}
+          stroke={colors.background}
+          style={isBlack(note) ? 'z-index: 10' : ''}
+        />
+
+        {isNoteSelected(note) && (
+          <circle
+            cx={isBlack(note) ? x + 15 : x + 25}
+            cy={isBlack(note) ? '155' : '275'}
+            r={isBlack(note) ? '10' : '15'}
+            fill={isBlack(note) ? colors.primary : colors.background}
+          />
+        )}
+      </>
+    ))
+  }
+</svg>
