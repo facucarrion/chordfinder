@@ -36,7 +36,9 @@ const actualChord = chords[notePath as ValidChords]
   <Nav active={notePath} />
 
   <main class='w-full max-w-[1000px] flex'>
-    <section class='grid w-full flex-col gap-8 grid-cols-2 auto-rows-auto'>
+    <section
+      class='grid w-full flex-col gap-8 grid-cols-1 md:grid-cols-2 auto-rows-auto'
+    >
       {
         actualChord.map((chord: Chord) => (
           <article class='flex flex-col gap-4'>
